@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Docker | 小金文库</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="/xiaojindocs/img/logo.png">
+    <meta name="description" content="生活如此 不留遗憾">
+    
+    <link rel="preload" href="/xiaojindocs/assets/css/0.styles.a7c7932d.css" as="style"><link rel="preload" href="/xiaojindocs/assets/js/app.909b524d.js" as="script"><link rel="preload" href="/xiaojindocs/assets/js/2.270761c3.js" as="script"><link rel="preload" href="/xiaojindocs/assets/js/12.39733f5e.js" as="script"><link rel="prefetch" href="/xiaojindocs/assets/js/10.03f7ca1b.js"><link rel="prefetch" href="/xiaojindocs/assets/js/11.3b53023e.js"><link rel="prefetch" href="/xiaojindocs/assets/js/13.ca00b1cb.js"><link rel="prefetch" href="/xiaojindocs/assets/js/14.88ccb13f.js"><link rel="prefetch" href="/xiaojindocs/assets/js/15.b44e5332.js"><link rel="prefetch" href="/xiaojindocs/assets/js/3.d26789b0.js"><link rel="prefetch" href="/xiaojindocs/assets/js/4.3a105209.js"><link rel="prefetch" href="/xiaojindocs/assets/js/5.c7668d6d.js"><link rel="prefetch" href="/xiaojindocs/assets/js/6.1a5e779f.js"><link rel="prefetch" href="/xiaojindocs/assets/js/7.8a0f9ab3.js"><link rel="prefetch" href="/xiaojindocs/assets/js/8.d65bedbc.js"><link rel="prefetch" href="/xiaojindocs/assets/js/9.760d576e.js">
+    <link rel="stylesheet" href="/xiaojindocs/assets/css/0.styles.a7c7932d.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/xiaojindocs/" class="home-link router-link-active"><img src="/xiaojindocs/img/logo.png" alt="小金文库" class="logo"> <span class="site-name can-hide">小金文库</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/xiaojindocs/guide/" class="nav-link">
+  指南
+</a></div><div class="nav-item"><a href="/xiaojindocs/skill/" class="nav-link router-link-active">
+  技术
+</a></div> <a href="http://www.github.com" target="_blank" rel="noopener noreferrer" class="repo-link">
+    Github
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/xiaojindocs/guide/" class="nav-link">
+  指南
+</a></div><div class="nav-item"><a href="/xiaojindocs/skill/" class="nav-link router-link-active">
+  技术
+</a></div> <a href="http://www.github.com" target="_blank" rel="noopener noreferrer" class="repo-link">
+    Github
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>技术</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/xiaojindocs/skill/" aria-current="page" class="sidebar-link">介绍</a></li><li><section class="sidebar-group is-sub-group depth-1"><a href="/xiaojindocs/skill/devops/" class="sidebar-heading clickable router-link-active open"><span>运维</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/xiaojindocs/skill/devops/Docker.html" aria-current="page" class="active sidebar-link">Docker</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/xiaojindocs/skill/devops/Docker.html#安装" class="sidebar-link">安装</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/xiaojindocs/skill/devops/Docker.html#可视化界面安装" class="sidebar-link">可视化界面安装</a></li></ul></li><li class="sidebar-sub-header"><a href="/xiaojindocs/skill/devops/Docker.html#基本命令" class="sidebar-link">基本命令</a></li><li class="sidebar-sub-header"><a href="/xiaojindocs/skill/devops/Docker.html#容器数据卷" class="sidebar-link">容器数据卷</a></li></ul></li></ul></section></li><li><section class="sidebar-group is-sub-group depth-1"><a href="/xiaojindocs/skill/kaifa/" class="sidebar-heading clickable"><span>开发</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/xiaojindocs/skill/kaifa/flutter.html" class="sidebar-link">flutter</a></li></ul></section></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="docker"><a href="#docker" class="header-anchor">#</a> Docker</h1> <h2 id="安装"><a href="#安装" class="header-anchor">#</a> 安装</h2> <ul><li>删除旧版本</li></ul> <blockquote><p>yum remove docker \<br>
+docker-client \<br>
+docker-client-latest \<br>
+docker-common \
+docker-latest \<br>
+docker-latest-logrotate \<br>
+docker-logrotate \<br>
+docker-engine</p></blockquote> <ul><li>安装环境包</li></ul> <blockquote><p>yum install -y yum-utils</p></blockquote> <ul><li>设置安装镜像地址</li></ul> <blockquote><p>yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo</p></blockquote> <ul><li>更新yum软件包索引</li></ul> <blockquote><p>yum makecache fast</p></blockquote> <ul><li>安装docker ce社区</li></ul> <blockquote><p>yum install docker-ce docker-ce-cli containerd.io</p></blockquote> <ul><li>启动docker</li></ul> <blockquote><p>systemctl start docker</p></blockquote> <ul><li>运行helloworld</li></ul> <blockquote><p>docker run hello</p></blockquote> <ul><li>如果出错通过专属阿里加速修改配置</li></ul> <blockquote><p>tee /etc/docker/daemon.json &lt;&lt;-'EOF' { &quot;registry-mirrors&quot;: [&quot;https://zv20bl4b.mirror.aliyuncs.com&quot;] } EOF sudo systemctl daemon-reload sudo systemctl restart docker<strong>​</strong></p></blockquote> <ul><li>查看镜像</li></ul> <blockquote><p>docker images</p></blockquote> <ul><li>卸载 Docker Engine、CLI 和 Containerd 包</li></ul> <blockquote><p>yum remove docker-ce docker-ce-cli containerd.io</p></blockquote> <ul><li>删除所有镜像容器和卷</li></ul> <blockquote><p>rm -rf /var/lib/docker<br>
+rm -rf /var/lib/containerd</p></blockquote> <h3 id="可视化界面安装"><a href="#可视化界面安装" class="header-anchor">#</a> 可视化界面安装</h3> <div class="language- extra-class"><pre class="language-text"><code>docker pull portainer/portainer 拉取镜像
+docker run -d -p 9000:9000 --restart=always -v /var/run/docker.sock:/var/run/docker.sock --name prtainer-test portainer/portainer 启动容器
+</code></pre></div><h2 id="基本命令"><a href="#基本命令" class="header-anchor">#</a> 基本命令</h2> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token comment">#帮助命令</span>
+docker version 查看版本信息
+docker -v
+docker info 查看docker信息
+docker 命令 --help  查看帮助
+
+<span class="token comment">#镜像命令</span>
+docker images 查看所有的镜像不包含中间映像层
+docker images -a 包含中间映像层
+docker images -q 只查看镜像id
+docker search 搜索镜像
+docker search mysql -f<span class="token operator">=</span>stars<span class="token operator">=</span><span class="token number">3000</span> 过滤收藏大于3000
+docker pull mysql 下载镜像默认最新版
+docker pull mysql:5.7 指定版本标签下载
+docker rmi -f id/name id/name 删除指定的镜像通过镜像id或者仓库名
+docker rmi -f <span class="token variable"><span class="token variable">$(</span>docker images -aq<span class="token variable">)</span></span> 递归删除所有的镜像
+docker image prune 删除虚名悬空镜像
+docker commit -a<span class="token operator">=</span><span class="token string">&quot;提交者&quot;</span> -m<span class="token operator">=</span><span class="token string">&quot;备注&quot;</span> 容器id 容器名  提交一个新的镜像保存配置
+
+<span class="token comment">#容器命令 （有了镜像才有容器）</span>
+docker pull centos 拉取centos
+docker run  通过镜像生成容器并且启动
+docker run  -d --name nginx-test -p <span class="token number">9999</span>:80 nginx 启动 ngnix指定外部9999与容器内部80端口映射
+docker run --name<span class="token operator">=</span><span class="token string">&quot;name&quot;</span> 运行容器 指定名称
+docker run -d 后台方式运行
+docker run -it 使用交互方式运行
+docker run -p 指定容器的端口
+docker run -P 随机端口
+docker run -it centos bin/bash  进入linux centos基础版本 exit退出 ctrl+p+q不停止退出
+docker <span class="token function">ps</span> 查看运行中容器
+docker <span class="token function">rm</span>  <span class="token function">id</span> 指定容器id删除
+docker <span class="token function">rm</span> -f <span class="token variable"><span class="token variable">$(</span>docker <span class="token function">ps</span> -aq<span class="token variable">)</span></span> 删除全部容器
+docker start 容器id 启动容器（之前生成过的容器）
+docker restart 容器id 重启容器
+docker stop 容器id 停止当前容器
+docker <span class="token function">kill</span> 容器id 强制杀掉容器
+
+<span class="token comment">#常用其他命令</span>
+docker run -d 镜像名 docker使用后台运行必须要有前台进程
+docker run --rm 镜像名 docker 退出容器会删除用户记录
+docker logs  -t -f --tail 日志数量 容器    常看日志
+docker logs <span class="token operator">|</span> <span class="token function">grep</span> error 容器 过滤error的日志
+docker　<span class="token function">top</span> 容器 查看容器进程
+docker inspect 容器 查看容器元数据
+docker inspect 容器<span class="token punctuation">(</span>前三位id即可<span class="token punctuation">)</span> <span class="token operator">|</span> <span class="token function">grep</span> Log 查看容器日志位置
+/etc/docker/daemon.json  配置日志大小上限
+<span class="token punctuation">{</span>
+ <span class="token string">&quot;log-opts&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">{</span>
+ <span class="token string">&quot;max-size&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;1m&quot;</span>,
+ <span class="token string">&quot;max-file&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;3&quot;</span>
+ <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+systemctl daemon-reload 重载配置
+systemctl restart docker.service 重启docker
+
+
+docker <span class="token builtin class-name">exec</span> -it 容器id /bin/bash 进入容器 开启新的终端
+docker attach 容器id  进入容器 原有的终端
+
+docker <span class="token function">cp</span> 容器id:容器内路径 目标路径   把容器内容拷贝到主机中
+
+</code></pre></div><h2 id="容器数据卷"><a href="#容器数据卷" class="header-anchor">#</a> 容器数据卷</h2> <p><br>保证容器数据持久化不存在容器中<br>容器数据共享功能<br>卷技术 目录挂载<br>使用数据卷</p> <blockquote><p>使用命令挂载 -v   容器改动会同步到主机目录</p></blockquote> <div class="language-bash extra-class"><pre class="language-bash"><code>docker run -it -v 主机目录 容器目录  挂载
+docker inspect 容器id  查看mounts    source是主机目录
+</code></pre></div><blockquote><p>dockerfile</p></blockquote> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">touch</span> dockerfiletest 修改
+
+FROM centos 
+VOLUME <span class="token punctuation">[</span><span class="token string">&quot;volum01&quot;</span>,<span class="token string">&quot;volume02&quot;</span><span class="token punctuation">]</span>  挂载容器目录
+CMD <span class="token builtin class-name">echo</span> <span class="token string">&quot;---end---&quot;</span>
+CMD /bin/bash
+
+
+docker build -f /home/dockerfiletest -t  jin/centos <span class="token builtin class-name">.</span> -f路径 -t名称 构建镜像
+
+
+docker run -it --name docker01 --volumes-from  docker00 jin/centos:1.0
+</code></pre></div><p>dockerfile解读</p> <ol><li>每个关键字都是大写的</li> <li>执行从上到顺序执行</li> <li>每个指定都会创建提交一个新的镜像层</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>DokcerFile 指令
+FROM  <span class="token comment">#基础镜像 </span>
+MAINTAINER <span class="token comment">#镜像是谁写的 姓名+邮箱</span>
+RUN  <span class="token comment">#镜像构建所需执行的命令</span>
+ADD  <span class="token comment">#添加内容 自动解压</span>
+WORKDIR <span class="token comment">#镜像工作目录</span>
+VOLUME  <span class="token comment">#挂载的目录</span>
+EXPOSE <span class="token comment">#保留端口配置</span>
+CMD <span class="token comment">#指定容器启动要运行的命令 只有最后一个会生效</span>
+ENTRYPOINT <span class="token comment">#指定容器启动要运行的命令 可以追加命令</span>
+ONBUILD <span class="token comment">#构建一个被继承DockerFile执行 触发命令</span>
+COPY <span class="token comment">#复制 将文件拷贝到镜像中</span>
+ENV <span class="token comment">#设置环境变量</span>
+</code></pre></div><p>创建自己的centos 配置如下</p> <div class="language-bash extra-class"><pre class="language-bash"><code>FROM centos
+
+MAINTAINER jin<span class="token operator">&lt;</span><span class="token number">1491691423</span>@qq.com<span class="token operator">&gt;</span>
+ENV MYPATH /usr/local  
+WORKDIR <span class="token variable">$MYPATH</span>  <span class="token comment">#工作目录</span>
+
+
+RUN yum -y <span class="token function">install</span> <span class="token function">vim</span>
+RUN yum -y <span class="token function">install</span> net-tools
+
+EXPOSE <span class="token number">80</span>
+CMD <span class="token builtin class-name">echo</span> <span class="token variable">$MYPATH</span>
+CMD /bin/bash
+
+
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/xiaojindocs/skill/" class="prev router-link-active">
+        介绍
+      </a></span> <span class="next"><a href="/xiaojindocs/skill/kaifa/flutter.html">
+        flutter
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/xiaojindocs/assets/js/app.909b524d.js" defer></script><script src="/xiaojindocs/assets/js/2.270761c3.js" defer></script><script src="/xiaojindocs/assets/js/12.39733f5e.js" defer></script>
+  </body>
+</html>
